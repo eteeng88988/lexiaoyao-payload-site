@@ -17,6 +17,7 @@
   },
   "vars": {
     "NODE_ENV": "production",
+    "PAYLOAD_PUBLIC_SERVER_URL": "https://amatbuy.eu.org",
   },
   "d1_databases": [
     {

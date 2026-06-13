@@ -21,7 +21,7 @@ export default async function HomePage() {
           and R2 media uploads, ready for content and design work.
         </p>
         <div className="actions">
-          <a className="primary" href={payloadConfig.routes.admin}>
+          <a className="primary" href={`${payloadConfig.routes.admin}/create-first-user`}>
             Open admin
           </a>
           <a className="secondary" href="https://payloadcms.com/docs" rel="noopener noreferrer" target="_blank">

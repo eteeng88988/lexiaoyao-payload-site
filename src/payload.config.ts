@@ -52,6 +52,7 @@ export default buildConfig({
   },
   collections: [Users, Media],
   editor: lexicalEditor(),
+  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL || '',
   secret: process.env.PAYLOAD_SECRET || cloudflare.env.PAYLOAD_SECRET || '',
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
